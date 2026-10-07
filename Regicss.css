@@ -1,0 +1,219 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eeeeee;
+    color: #222;
+    font-size: 12px;
+}
+
+.container {
+    width: 760px;
+    margin: 0 auto;
+    padding: 15px 35px 25px;
+    background-color: #eeeeee;
+}
+
+.required {
+    margin: 0 0 8px;
+    font-size: 11px;
+}
+
+.steps {
+    margin-bottom: 10px;
+    font-size: 11px;
+}
+
+h2 {
+    margin: 12px 0 3px;
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.form-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+.form-row label {
+    width: 155px;
+    margin-right: 8px;
+    text-align: right;
+    font-weight: bold;
+}
+
+.form-row label span,
+.radio-row label span {
+    color: red;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+    width: 280px;
+    height: 21px;
+    padding: 2px 4px;
+    border: 1px solid #999;
+    background-color: white;
+    font-size: 11px;
+}
+
+select {
+    width: 280px;
+}
+
+.radio-row {
+    display: flex;
+    align-items: center;
+    margin-top: 6px;
+    margin-bottom: 5px;
+}
+
+.radio-row label {
+    width: 155px;
+    margin-right: 8px;
+    text-align: right;
+    font-weight: bold;
+}
+
+.radio-row input {
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.other-amount {
+    display: flex;
+    align-items: center;
+    margin-left: 163px;
+    margin-bottom: 5px;
+}
+
+.other-amount label {
+    margin-right: 8px;
+    font-weight: bold;
+}
+
+.other-amount input {
+    width: 80px;
+    height: 21px;
+}
+
+.credit-card {
+    margin-left: 163px;
+    margin-bottom: 10px;
+}
+
+.credit-card input {
+    width: 100px;
+    height: 21px;
+    margin: 0 5px;
+}
+
+.credit-card span {
+    font-size: 11px;
+}
+
+.honor-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.honor-row label {
+    width: 155px;
+    margin-right: 8px;
+    text-align: right;
+    font-weight: bold;
+}
+
+.honor-row input {
+    margin-left: 5px;
+    margin-right: 3px;
+}
+
+.small-text {
+    margin: 0 0 4px;
+    font-size: 10px;
+}
+
+.check-row {
+    margin: 4px 0 4px 155px;
+    line-height: 16px;
+}
+
+.check-row input {
+    margin: 0 5px 0 0;
+}
+
+.comments {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 8px;
+}
+
+.comments label {
+    width: 155px;
+    margin-right: 8px;
+    padding-top: 4px;
+    text-align: right;
+    font-weight: bold;
+}
+
+textarea {
+    width: 280px;
+    height: 60px;
+    resize: none;
+    border: 1px solid #999;
+}
+
+.contact {
+    margin-top: 8px;
+    margin-left: 155px;
+    line-height: 20px;
+}
+
+.contact label {
+    display: inline-block;
+    width: 150px;
+    margin-right: 5px;
+    text-align: right;
+    font-weight: bold;
+}
+
+.contact input {
+    margin-left: 5px;
+}
+
+.buttons {
+    margin-top: 12px;
+    margin-left: 290px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    padding: 3px 15px;
+    margin-right: 5px;
+    border: 1px solid #888;
+    border-radius: 10px;
+    background-color: #eeeeee;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #d8d8d8;
+}
+
+.footer {
+    margin: 8px 0 0;
+    font-size: 10px;
+    color: #555;
+}
